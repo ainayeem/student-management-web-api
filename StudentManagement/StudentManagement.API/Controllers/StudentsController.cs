@@ -35,7 +35,7 @@ namespace StudentManagement.API.Controllers
         // GET all students
         // GET: /api/students?filterOn=Name&filterQuery=Track&sortBy=Name&isAscending=true&pageNumber=1&pageSize=10
         [HttpGet]
-        [Authorize(Roles = "Reader")]
+        //[Authorize(Roles = "Reader")]
         [ResponseCache(Location = ResponseCacheLocation.Client, Duration =20)]
         public async Task<IActionResult> GetAll(
             [FromQuery] string? filterOn,

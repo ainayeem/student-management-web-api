@@ -121,3 +121,4 @@ D:\CodeCamp\BE\WebApiAssignment\StudentManagement\StudentManagement.API\bin\Debu
 D:\CodeCamp\BE\WebApiAssignment\StudentManagement\StudentManagement.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 D:\CodeCamp\BE\WebApiAssignment\StudentManagement\StudentManagement.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 D:\CodeCamp\BE\WebApiAssignment\StudentManagement\StudentManagement.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\CodeCamp\BE\WebApiAssignment\StudentManagement\StudentManagement.API\obj\Debug\net8.0\StudentManagement.API.sourcelink.json

@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{0F2191A3-F9AC-41E8-A80F-27DFF997F2DA}|StudentManagement.API\\StudentManagement.API.csproj|solutionrelative:studentmanagement.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EAE5299-B8C5-43F3-89FA-D0272238481B}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|d:\\codecamp\\be\\webapiassignment\\studentmanagement\\studentmanagement.persistence\\repositories\\sqlstudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EAE5299-B8C5-43F3-89FA-D0272238481B}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|solutionrelative:studentmanagement.persistence\\repositories\\sqlstudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F2191A3-F9AC-41E8-A80F-27DFF997F2DA}|StudentManagement.API\\StudentManagement.API.csproj|d:\\codecamp\\be\\webapiassignment\\studentmanagement\\studentmanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F2191A3-F9AC-41E8-A80F-27DFF997F2DA}|StudentManagement.API\\StudentManagement.API.csproj|solutionrelative:studentmanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F2191A3-F9AC-41E8-A80F-27DFF997F2DA}|StudentManagement.API\\StudentManagement.API.csproj|d:\\codecamp\\be\\webapiassignment\\studentmanagement\\studentmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F2191A3-F9AC-41E8-A80F-27DFF997F2DA}|StudentManagement.API\\StudentManagement.API.csproj|solutionrelative:studentmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EAE5299-B8C5-43F3-89FA-D0272238481B}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|d:\\codecamp\\be\\webapiassignment\\studentmanagement\\studentmanagement.persistence\\repositories\\sqlstudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EAE5299-B8C5-43F3-89FA-D0272238481B}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|solutionrelative:studentmanagement.persistence\\repositories\\sqlstudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EAE5299-B8C5-43F3-89FA-D0272238481B}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|d:\\codecamp\\be\\webapiassignment\\studentmanagement\\studentmanagement.persistence\\data\\studentmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7EAE5299-B8C5-43F3-89FA-D0272238481B}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|d:\\codecamp\\be\\webapiassignment\\studentmanagement\\studentmanagement.persistence\\data\\inmemorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EAE5299-B8C5-43F3-89FA-D0272238481B}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|solutionrelative:studentmanagement.persistence\\data\\inmemorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F2191A3-F9AC-41E8-A80F-27DFF997F2DA}|StudentManagement.API\\StudentManagement.API.csproj|d:\\codecamp\\be\\webapiassignment\\studentmanagement\\studentmanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0F2191A3-F9AC-41E8-A80F-27DFF997F2DA}|StudentManagement.API\\StudentManagement.API.csproj|solutionrelative:studentmanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EAE5299-B8C5-43F3-89FA-D0272238481B}|StudentManagement.Persistence\\StudentManagement.Persistence.csproj|d:\\codecamp\\be\\webapiassignment\\studentmanagement\\studentmanagement.persistence\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,13 +42,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\CodeCamp\\BE\\WebApiAssignment\\StudentManagement\\StudentManagement.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "StudentManagement.API\\Properties\\launchSettings.json",
               "ToolTip": "D:\\CodeCamp\\BE\\WebApiAssignment\\StudentManagement\\StudentManagement.API\\Properties\\launchSettings.json",
               "RelativeToolTip": "StudentManagement.API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-05-04T03:49:13.51Z",
               "EditorCaption": ""
@@ -73,14 +73,14 @@
               "RelativeDocumentMoniker": "StudentManagement.API\\Controllers\\StudentsController.cs",
               "ToolTip": "D:\\CodeCamp\\BE\\WebApiAssignment\\StudentManagement\\StudentManagement.API\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "StudentManagement.API\\Controllers\\StudentsController.cs",
-              "ViewState": "AQIAAJwAAAAAAAAAAAAiwMQAAAAAAAAA",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAIwIQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T09:23:33.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SQLStudentRepository.cs",
               "DocumentMoniker": "D:\\CodeCamp\\BE\\WebApiAssignment\\StudentManagement\\StudentManagement.Persistence\\Repositories\\SQLStudentRepository.cs",
               "RelativeDocumentMoniker": "StudentManagement.Persistence\\Repositories\\SQLStudentRepository.cs",
@@ -88,12 +88,11 @@
               "RelativeToolTip": "StudentManagement.Persistence\\Repositories\\SQLStudentRepository.cs",
               "ViewState": "AQIAAEQAAAAAAAAAAAAIwA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T08:51:21.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T08:51:21.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "InMemoryDb.cs",
               "DocumentMoniker": "D:\\CodeCamp\\BE\\WebApiAssignment\\StudentManagement\\StudentManagement.Persistence\\Data\\InMemoryDb.cs",
               "RelativeDocumentMoniker": "StudentManagement.Persistence\\Data\\InMemoryDb.cs",
@@ -101,12 +100,11 @@
               "RelativeToolTip": "StudentManagement.Persistence\\Data\\InMemoryDb.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T08:36:10.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T08:36:10.049Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "StudentManagementDbContext.cs",
               "DocumentMoniker": "D:\\CodeCamp\\BE\\WebApiAssignment\\StudentManagement\\StudentManagement.Persistence\\Data\\StudentManagementDbContext.cs",
               "RelativeDocumentMoniker": "StudentManagement.Persistence\\Data\\StudentManagementDbContext.cs",
@@ -114,8 +112,7 @@
               "RelativeToolTip": "StudentManagement.Persistence\\Data\\StudentManagementDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T08:32:15.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T08:32:15.454Z"
             },
             {
               "$type": "Document",
@@ -125,7 +122,7 @@
               "RelativeDocumentMoniker": "StudentManagement.API\\Program.cs",
               "ToolTip": "D:\\CodeCamp\\BE\\WebApiAssignment\\StudentManagement\\StudentManagement.API\\Program.cs",
               "RelativeToolTip": "StudentManagement.API\\Program.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAgwGcAAAA6AAAA",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAWwKwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T08:29:53.363Z",
               "EditorCaption": ""

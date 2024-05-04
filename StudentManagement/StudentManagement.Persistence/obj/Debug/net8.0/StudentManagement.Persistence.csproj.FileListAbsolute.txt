@@ -12,3 +12,4 @@ D:\CodeCamp\BE\WebApiAssignment\StudentManagement\StudentManagement.Persistence\
 D:\CodeCamp\BE\WebApiAssignment\StudentManagement\StudentManagement.Persistence\obj\Debug\net8.0\StudentManagement.Persistence.csproj.AssemblyReference.cache
 D:\CodeCamp\BE\WebApiAssignment\StudentManagement\StudentManagement.Persistence\bin\Debug\net8.0\StudentManagement.Persistence.runtimeconfig.json
 D:\CodeCamp\BE\WebApiAssignment\StudentManagement\StudentManagement.Persistence\obj\Debug\net8.0\StudentManagement.Persistence.genruntimeconfig.cache
+D:\CodeCamp\BE\WebApiAssignment\StudentManagement\StudentManagement.Persistence\obj\Debug\net8.0\StudentManagement.Persistence.sourcelink.json

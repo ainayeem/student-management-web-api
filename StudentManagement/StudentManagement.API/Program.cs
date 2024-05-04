@@ -76,10 +76,10 @@ public class Program
         options.UseNpgsql(builder.Configuration.GetConnectionString("StudentManagementConnectionStrings")));
 
         // another db di
-        builder.Services.AddDbContext<StudentManagementAuthDbContext>(options => 
-        options.UseNpgsql(builder.Configuration.GetConnectionString("StudentManagementAuthConnectionStrings")));
+        //builder.Services.AddDbContext<StudentManagementAuthDbContext>(options => 
+        //options.UseNpgsql(builder.Configuration.GetConnectionString("StudentManagementAuthConnectionStrings")));
 
-        
+
         //if (!builder.Environment.IsDevelopment())
         //{
         //    //builder.Services.AddScoped<IInMemoryStudentRepository, InMemoryStudentRepository>();
@@ -98,11 +98,31 @@ public class Program
         //    //builder.Services.AddScoped<IApplicationDbContext, StudentManagementDbContext>();
 
         //    //builder.Services.AddScoped<IStudentRepository, SQLStudentRepository>();
-            
+
         //}
 
         //builder.Services.AddScoped<StudentRepository>();
-        
+
+
+        //--
+        if (builder.Environment.IsDevelopment())
+        {
+            var dbName = "StudentsDb";
+            builder.Services.AddDbContext<IApplicationDbContext, InMemoryDb>(
+                options => options.UseInMemoryDatabase(dbName));
+
+            //builder.Services.AddScoped<IStudentRepository, SQLStudentRepository>();
+        }
+        else
+        {
+            builder.Services.AddDbContext<StudentManagementAuthDbContext>(options =>
+                options.UseNpgsql(builder.Configuration.GetConnectionString("StudentManagementAuthConnectionStrings")));
+
+            //builder.Services.AddScoped<IStudentRepository, SQLStudentRepository>();
+
+            //builder.Services.AddScoped<ITokenRepository, TokenRepository>();
+        }
+
         builder.Services.AddScoped<IStudentRepository, SQLStudentRepository>();
 
         builder.Services.AddScoped<ITokenRepository, TokenRepository>();
@@ -153,11 +173,11 @@ public class Program
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
-        if (app.Environment.IsDevelopment())
-        {
+        //if (app.Environment.IsDevelopment())
+        //{
             app.UseSwagger();
             app.UseSwaggerUI();
-        }
+        //}
 
         app.UseHttpsRedirection();
 
